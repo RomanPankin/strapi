@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_component_01s",
+  "info": {
+    "displayName": "Component 01"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
