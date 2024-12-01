@@ -8,6 +8,7 @@ export interface SharedComponent01 extends Struct.ComponentSchema {
   };
   attributes: {
     Description: Schema.Attribute.Blocks;
+    ForDemo: Schema.Attribute.Boolean;
     Title: Schema.Attribute.String;
   };
 }

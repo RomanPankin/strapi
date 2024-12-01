@@ -11,6 +11,9 @@
     },
     "Description": {
       "type": "blocks"
+    },
+    "ForDemo": {
+      "type": "boolean"
     }
   }
 }
