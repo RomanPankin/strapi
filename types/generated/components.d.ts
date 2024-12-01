@@ -3,9 +3,11 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface SharedComponent01 extends Struct.ComponentSchema {
   collectionName: 'components_shared_component_01s';
   info: {
+    description: '';
     displayName: 'Component 01';
   };
   attributes: {
+    Description: Schema.Attribute.Blocks;
     Title: Schema.Attribute.String;
   };
 }

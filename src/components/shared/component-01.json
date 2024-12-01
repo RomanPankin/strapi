@@ -1,12 +1,16 @@
 {
   "collectionName": "components_shared_component_01s",
   "info": {
-    "displayName": "Component 01"
+    "displayName": "Component 01",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Title": {
       "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
     }
   }
 }

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_news",
+  "info": {
+    "singularName": "page-new",
+    "pluralName": "page-news",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.component-01"
+      ]
+    }
+  }
+}
