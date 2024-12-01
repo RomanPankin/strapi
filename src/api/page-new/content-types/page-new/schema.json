@@ -18,7 +18,8 @@
     },
     "Url": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "Blocks": {
       "type": "dynamiczone",
